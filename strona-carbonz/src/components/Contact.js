@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Engage from './Engage';
 
 const Contact = () => {
     return (
         <div>
-            Contact
+            Kontakt
+            <Engage />
         </div>
     )
 }

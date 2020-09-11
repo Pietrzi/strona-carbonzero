@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Engage from './Engage';
 
 const About = () => {
     return (
         <div>
             O nas
+            <Engage />
         </div>
     )
 }

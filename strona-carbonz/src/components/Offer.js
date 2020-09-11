@@ -1,9 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Engage from './Engage';
 
 const Offer = () => {
     return (
         <div>
             Oferta
+            <Engage />
         </div>
     )
 }
