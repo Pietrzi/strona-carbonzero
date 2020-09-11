@@ -1,12 +1,11 @@
 import React from 'react'
 
-const Offer = () => {
+const AskForm = () => {
     return (
         <div>
-            Oferta
+            Zapytanie Ofertowe
         </div>
     )
 }
 
-export default Offer
-
+export default AskForm
