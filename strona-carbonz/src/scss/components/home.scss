@@ -1,0 +1,19 @@
+.home-wrapper {
+    width: 100vw;
+
+    .home-logo {
+        width: 100%;
+        height: calc(100vh - 80px);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            position: relative;
+            bottom: 40px;
+            max-width: 450px;
+            max-height: 450px;
+            transform: scale(1.2);
+        }
+    }
+}
