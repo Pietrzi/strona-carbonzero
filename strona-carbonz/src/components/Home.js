@@ -7,6 +7,7 @@ const Home = () => {
         <div className="home-wrapper">
             <div className="home-logo">
                 <img src={logo} alt="logo CarbonZero"/>
+                <h1>Najlepsze pompy ciepła</h1>
             </div>
             <Engage />
         </div>
