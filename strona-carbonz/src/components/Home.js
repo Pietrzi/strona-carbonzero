@@ -1,12 +1,15 @@
 import React from 'react';
 import Engage from './Engage';
-import logo from '../assetes/CarbonZero-logo.png';
+
+// const myImage = require(‘assets/log.png’);
+
+// import logo from '../assets/log.png';
 
 const Home = () => {
     return (
         <div className="home-wrapper">
             <div className="home-logo">
-                <img src={logo} alt="logo CarbonZero"/>
+                <img src={require('../assets/log.png')} alt="logo CarbonZero"/>
                 <h1>Najlepsze pompy ciepła</h1>
             </div>
             <Engage />
@@ -14,5 +17,4 @@ const Home = () => {
     )
 }
 
-export default Home
-
+export default Home;
