@@ -3,10 +3,10 @@ import Engage from './Engage';
 
 const Offer = () => {
     return (
-        <div>
-            Oferta
+        <>
+            <section className="offer-section">Oferta</section>
             <Engage />
-        </div>
+        </>
     )
 }
 

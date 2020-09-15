@@ -2,8 +2,8 @@ import React from 'react'
 
 const AskForm = () => {
     return (
-        <div>
-            Zapytanie Ofertowe
+        <div className="form">
+            <h2>Formularz zapytania ofertowego</h2>
         </div>
     )
 }

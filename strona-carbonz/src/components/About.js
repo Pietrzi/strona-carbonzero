@@ -3,10 +3,10 @@ import Engage from './Engage';
 
 const About = () => {
     return (
-        <div>
-            O nas
+        <>
+            <section className="about-section">O nas</section>
             <Engage />
-        </div>
+        </>
     )
 }
 

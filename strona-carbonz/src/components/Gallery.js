@@ -3,10 +3,10 @@ import Engage from './Engage';
 
 const Gallery = () => {
     return (
-        <div>
-            Galeria
+        <>
+            <section className="gallery-section">Galeria</section>
             <Engage />
-        </div>
+        </>
     )
 }
 

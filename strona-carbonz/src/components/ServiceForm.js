@@ -2,8 +2,8 @@ import React from 'react'
 
 const ServiceForm = () => {
     return (
-        <div>
-            Formaularz Serwisowy
+        <div className="form">
+            <h2>Formularz zgłoszenia serwisu</h2>
         </div>
     )
 }

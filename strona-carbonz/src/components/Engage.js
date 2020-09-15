@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 const Engage = () => {
     return (
         <div className="engage-container">
-            <h2>Napisz do Nas</h2>
+            <h2>Chcesz wiedzieć wiecej</h2>
             <div className="buttons-wrapper">
                 <div>
                     <h4>Masz pytanie o ofertę</h4>
