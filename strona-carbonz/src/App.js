@@ -5,12 +5,13 @@ import { Switch, BrowserRouter, Route } from 'react-router-dom';
 import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
-import Footer from './components/Footer';
+import Info from './components/Info';
 import AskForm from './components/AskForm';
 import ServiceForm from './components/ServiceForm';
 import Offer from './components/Offer';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 class App extends React.Component {
 
@@ -28,6 +29,7 @@ class App extends React.Component {
             <Route path='/zapytanie' component={AskForm} />
             <Route path='/serwis' component={ServiceForm} />
           </Switch>
+          <Info />
           <Footer />
         </BrowserRouter>
       </>
