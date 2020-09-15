@@ -3,12 +3,17 @@ import { NavLink } from 'react-router-dom';
 
 const Engage = () => {
     return (
-        <div>
-            <div>
-                <NavLink to='/zapytanie'>Zpaytanie ofertowe</NavLink>
-            </div>
-            <div>
-                <NavLink to='/serwis'>Zgłoszenie serwisowe</NavLink>
+        <div className="engage-container">
+            <h2>Napisz do Nas</h2>
+            <div className="buttons-wrapper">
+                <div>
+                    <h4>Masz pytanie o ofertę</h4>
+                    <NavLink to='/zapytanie'><p>Zpaytanie ofertowe</p></NavLink>
+                </div>
+                <div>
+                    <h4>Zgłoś prośbę o serwis</h4>
+                    <NavLink to='/serwis'><p>Zgłoszenie serwisowe</p></NavLink>
+                </div>
             </div>
         </div>
     )
