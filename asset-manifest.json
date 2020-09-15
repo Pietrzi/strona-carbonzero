@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/strona-carbonzero/static/css/main.811a8ed1.chunk.css",
-    "main.js": "/strona-carbonzero/static/js/main.9d0d817a.chunk.js",
-    "main.js.map": "/strona-carbonzero/static/js/main.9d0d817a.chunk.js.map",
+    "main.js": "/strona-carbonzero/static/js/main.9589adcb.chunk.js",
+    "main.js.map": "/strona-carbonzero/static/js/main.9589adcb.chunk.js.map",
     "runtime-main.js": "/strona-carbonzero/static/js/runtime-main.3eb6d208.js",
     "runtime-main.js.map": "/strona-carbonzero/static/js/runtime-main.3eb6d208.js.map",
-    "static/js/2.62bb38b2.chunk.js": "/strona-carbonzero/static/js/2.62bb38b2.chunk.js",
-    "static/js/2.62bb38b2.chunk.js.map": "/strona-carbonzero/static/js/2.62bb38b2.chunk.js.map",
+    "static/js/2.ec0ad53c.chunk.js": "/strona-carbonzero/static/js/2.ec0ad53c.chunk.js",
+    "static/js/2.ec0ad53c.chunk.js.map": "/strona-carbonzero/static/js/2.ec0ad53c.chunk.js.map",
     "index.html": "/strona-carbonzero/index.html",
-    "precache-manifest.5c1f84ebc681fa98961df5bf0da71efb.js": "/strona-carbonzero/precache-manifest.5c1f84ebc681fa98961df5bf0da71efb.js",
+    "precache-manifest.a36f4c2950528ed7a0d8057b6dfa28cc.js": "/strona-carbonzero/precache-manifest.a36f4c2950528ed7a0d8057b6dfa28cc.js",
     "service-worker.js": "/strona-carbonzero/service-worker.js",
     "static/css/main.811a8ed1.chunk.css.map": "/strona-carbonzero/static/css/main.811a8ed1.chunk.css.map",
-    "static/js/2.62bb38b2.chunk.js.LICENSE.txt": "/strona-carbonzero/static/js/2.62bb38b2.chunk.js.LICENSE.txt",
+    "static/js/2.ec0ad53c.chunk.js.LICENSE.txt": "/strona-carbonzero/static/js/2.ec0ad53c.chunk.js.LICENSE.txt",
     "static/media/log.png": "/strona-carbonzero/static/media/log.d0da3b74.png"
   },
   "entrypoints": [
     "static/js/runtime-main.3eb6d208.js",
-    "static/js/2.62bb38b2.chunk.js",
+    "static/js/2.ec0ad53c.chunk.js",
     "static/css/main.811a8ed1.chunk.css",
-    "static/js/main.9d0d817a.chunk.js"
+    "static/js/main.9589adcb.chunk.js"
   ]
 }
