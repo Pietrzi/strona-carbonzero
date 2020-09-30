@@ -10,7 +10,7 @@ const Home = () => {
         <div className="home-wrapper">
             <div className="home-logo">
                 {/* <div className="img"></div> */}
-                {/* <img src={require('../assets/log.png')} alt="logo CarbonZero"/> */}
+                <img src={require('../assets/log.png')} alt="logo CarbonZero"/>
                 <h1>Najlepsze pompy ciepła</h1>
             </div>
             <Engage />
