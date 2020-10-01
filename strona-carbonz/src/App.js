@@ -12,6 +12,7 @@ import Offer from './components/Offer';
 import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Partners from './components/Partners';
 
 class App extends React.Component {
 
@@ -29,6 +30,7 @@ class App extends React.Component {
             <Route path='/zapytanie' component={AskForm} />
             <Route path='/serwis' component={ServiceForm} />
           </Switch>
+          <Partners />
           <Info />
           <Footer />
         </BrowserRouter>

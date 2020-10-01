@@ -4,7 +4,7 @@
     .home-logo {
         width: 100%;
         height: calc(100vh - 80px);
-        background-color: white;
+        background-color: black;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -27,13 +27,12 @@
             bottom: 60px;
             max-width: 450px;
             max-height: 450px;
-            transform: scale(1.2);
+            // transform: scale(1.2);
         }
 
         h1 {
             font-size: 3rem;
-            // color: lightblue;
-            color: black;
+            color: lightblue;
         }
     }
 }
