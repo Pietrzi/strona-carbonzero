@@ -1,12 +1,49 @@
 .info-container {
     width: 100vw;
     height: 320px;
+    padding: 30px 100px;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-between;
+    // align-items: center;
     background-color: #212020;
 
-    h2 {
-        color: white;
+    .info-section-box {
+        width: 380px;
+        display: flex;
+        flex-direction: column;
+        color: lightgray;
+        // justify-content: center;
+
+        .info-title {
+            font-size: 1.4rem;
+            color: lightblue;
+            margin-bottom: 15px;
+        }
+
+        .info-name {
+            font-size: 1.3rem;
+            margin-bottom: 15px;
+        }
+
+        .margbot {
+            margin-bottom: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            margin-bottom: 15px;
+            margin-top: 5px;
+            font-size: 1.1rem;
+
+            &:hover {
+                color: lightblue;
+                cursor:  pointer;
+            }
+        }
+    }
+
+    .altalign {
+        align-items: center;
     }
 }

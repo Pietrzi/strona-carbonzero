@@ -11,15 +11,23 @@
 
     .logos-container {
         width: 100%;
-        padding: 0 100px;
+        padding: 0 80px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
 
         img {
-            margin: 15px 30px;
-            transform: scale(0.8);
+            margin: 1px 15px;
+            transform: scale(0.6);
+        }
+
+        .logo4 {
+            transform: scale(1);
+        }
+
+        .logo8 {
+            transform: scale(1);
         }
     }
 }
