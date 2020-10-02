@@ -18,6 +18,12 @@ const Navbar = () => {
                     <NavLink to='/galeria'>Galeria</NavLink>
                 </li>
                 <li>
+                    <NavLink to='/aktualnosci'>Aktualności</NavLink>
+                </li>
+                <li>
+                    <NavLink to='/dotacje'>Dotacje</NavLink>
+                </li>
+                <li>
                     <NavLink to='/kontakt'>Kontakt</NavLink>
                 </li>
             </ul>

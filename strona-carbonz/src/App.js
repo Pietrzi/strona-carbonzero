@@ -13,6 +13,8 @@ import Gallery from './components/Gallery';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import Partners from './components/Partners';
+import News from './components/News';
+import Subsidies from './components/Subsidies.js';
 
 class App extends React.Component {
 
@@ -29,6 +31,8 @@ class App extends React.Component {
             <Route path='/kontakt' component={Contact} />
             <Route path='/zapytanie' component={AskForm} />
             <Route path='/serwis' component={ServiceForm} />
+            <Route path='/aktualnosci' component={News} />
+            <Route path='/dotacje' component={Subsidies} />
           </Switch>
           <Partners />
           <Info />
