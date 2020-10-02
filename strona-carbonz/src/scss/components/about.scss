@@ -1,10 +1,38 @@
 .about-section {
     width: 100vw;
-    height: 500px;
-    background-color: whitesmoke;
+    height: calc(100vh - 80px);
+    background-color: white;
     color: black;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    font-size: 2rem;
+
+    .about-img-holder {
+        width: 500px;
+        height: 500px;
+        position: relative;
+        top: 70px;
+
+        img {
+            max-width: 100%;
+            object-fit: fill;
+        }
+    }
+
+    .about-text-holder {
+        width: 500px;
+        height: 550px;
+        color: grey;
+
+        .about-title {
+            font-size: 1.7rem;
+            color: lightblue;
+            margin-bottom: 20px;
+        }
+
+        .about-text {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+    }
 }

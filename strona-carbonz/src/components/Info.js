@@ -21,6 +21,8 @@ const Info = () => {
                 <NavLink to='/onas'><p>O nas</p></NavLink>
                 <NavLink to='/oferta'><p>Oferta</p></NavLink>
                 <NavLink to='/galeria'><p>Galeria</p></NavLink>
+                <NavLink to='/aktualnosci'><p>Aktualności</p></NavLink>
+                <NavLink to='/dotacje'><p>Dotacje</p></NavLink>
                 <NavLink to='/kontakt'><p>Kontakt</p></NavLink>
             </div>
             <div className="info-section-box altalign">
