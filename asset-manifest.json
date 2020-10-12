@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/strona-carbonzero/static/css/main.50db8351.chunk.css",
-    "main.js": "/strona-carbonzero/static/js/main.b283624b.chunk.js",
-    "main.js.map": "/strona-carbonzero/static/js/main.b283624b.chunk.js.map",
+    "main.css": "/strona-carbonzero/static/css/main.f310c408.chunk.css",
+    "main.js": "/strona-carbonzero/static/js/main.74238761.chunk.js",
+    "main.js.map": "/strona-carbonzero/static/js/main.74238761.chunk.js.map",
     "runtime-main.js": "/strona-carbonzero/static/js/runtime-main.65fc6ad7.js",
     "runtime-main.js.map": "/strona-carbonzero/static/js/runtime-main.65fc6ad7.js.map",
     "static/js/2.8922ab0b.chunk.js": "/strona-carbonzero/static/js/2.8922ab0b.chunk.js",
     "static/js/2.8922ab0b.chunk.js.map": "/strona-carbonzero/static/js/2.8922ab0b.chunk.js.map",
     "index.html": "/strona-carbonzero/index.html",
-    "precache-manifest.41d9a79c8674eae12d143c9cdb2810e0.js": "/strona-carbonzero/precache-manifest.41d9a79c8674eae12d143c9cdb2810e0.js",
+    "precache-manifest.ab5eaaf3f6bdabf26a6e4e6d638f2f44.js": "/strona-carbonzero/precache-manifest.ab5eaaf3f6bdabf26a6e4e6d638f2f44.js",
     "service-worker.js": "/strona-carbonzero/service-worker.js",
-    "static/css/main.50db8351.chunk.css.map": "/strona-carbonzero/static/css/main.50db8351.chunk.css.map",
+    "static/css/main.f310c408.chunk.css.map": "/strona-carbonzero/static/css/main.f310c408.chunk.css.map",
     "static/js/2.8922ab0b.chunk.js.LICENSE.txt": "/strona-carbonzero/static/js/2.8922ab0b.chunk.js.LICENSE.txt",
     "static/media/comp1.png": "/strona-carbonzero/static/media/comp1.6e94f826.png",
     "static/media/comp10.png": "/strona-carbonzero/static/media/comp10.aa86b19d.png",
@@ -23,12 +23,19 @@
     "static/media/comp8.png": "/strona-carbonzero/static/media/comp8.bb8d0cfa.png",
     "static/media/comp9.png": "/strona-carbonzero/static/media/comp9.6d14d73c.png",
     "static/media/graf2.jpg": "/strona-carbonzero/static/media/graf2.05bc21cd.jpg",
-    "static/media/log.png": "/strona-carbonzero/static/media/log.d0da3b74.png"
+    "static/media/lazienka1.jpg": "/strona-carbonzero/static/media/lazienka1.3c0c7fc3.jpg",
+    "static/media/log.png": "/strona-carbonzero/static/media/log.d0da3b74.png",
+    "static/media/pomp1.jpg": "/strona-carbonzero/static/media/pomp1.bedc735c.jpg",
+    "static/media/pomp2.jpg": "/strona-carbonzero/static/media/pomp2.d9bc784f.jpg",
+    "static/media/pomp3.jpg": "/strona-carbonzero/static/media/pomp3.f05cc87b.jpg",
+    "static/media/pomp4.jpg": "/strona-carbonzero/static/media/pomp4.c9b39bfa.jpg",
+    "static/media/salon1.jpg": "/strona-carbonzero/static/media/salon1.ea0578d0.jpg",
+    "static/media/salon2.jpg": "/strona-carbonzero/static/media/salon2.78e1714b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.65fc6ad7.js",
     "static/js/2.8922ab0b.chunk.js",
-    "static/css/main.50db8351.chunk.css",
-    "static/js/main.b283624b.chunk.js"
+    "static/css/main.f310c408.chunk.css",
+    "static/js/main.74238761.chunk.js"
   ]
 }
