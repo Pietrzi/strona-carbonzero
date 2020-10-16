@@ -15,12 +15,38 @@ import Footer from './components/Footer';
 import Partners from './components/Partners';
 import News from './components/News';
 import Subsidies from './components/Subsidies.js';
+import Backdrop from './components/Backdrop';
+import CookieBackdrop from './components/CookieBackdrop';
+
 
 class App extends React.Component {
+  state = {
+    sideMenu: false,
+    cookieBackdrop: true
+  }
+
+  sideMenuClickHandler = () => {
+    this.setState(prevState => {
+      return { sideMenu: !prevState.sideMenu }
+    })
+  }
+
+  backdropClickHandler = () => {
+    this.setState({
+      sideMenu: false
+    })
+  }
 
   render() {
+
+    let backdrop;
+    if (this.state.sideMenu) {
+      backdrop = <Backdrop click={this.backdropClickHandler}/>
+    }
+
     return (
       <>
+        {backdrop}
         <BrowserRouter>
           <Navbar />
           <Switch>
