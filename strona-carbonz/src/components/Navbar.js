@@ -1,7 +1,8 @@
 import React from 'react';
+import Hamburger from './Hamburger';
 import { NavLink } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = (props) => {
     return (
         <nav>
             <ul>
@@ -27,6 +28,7 @@ const Navbar = () => {
                     <NavLink to='/kontakt'>Kontakt</NavLink>
                 </li>
             </ul>
+            <Hamburger click={props.menuHandler}/>
         </nav>
     )
 }

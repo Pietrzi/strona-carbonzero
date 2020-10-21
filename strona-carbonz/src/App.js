@@ -20,6 +20,7 @@ import Partners from './components/Partners';
 import News from './components/News';
 import Subsidies from './components/Subsidies.js';
 import Backdrop from './components/Backdrop';
+import SideMenu from './components/SideMenu';
 import CookieBackdrop from './components/CookieBackdrop';
 
 
@@ -41,11 +42,11 @@ class App extends React.Component {
     })
   }
 
-  cookieBackdropClickHandler = () => {
-    this.setState({
-      cookieBackdrop: false
-    })
-  }
+  // cookieBackdropClickHandler = () => {
+  //   this.setState({
+  //     cookieBackdrop: false
+  //   })
+  // }
 
   render() {
 
@@ -54,17 +55,18 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
 
-    let cookieBackdrop;
-    if (this.state.sideMenu) {
-      cookieBackdrop = <CookieBackdrop click={this.cookieBackdropClickHandler}/>
-    }
+    // let cookieBackdrop;
+    // if (this.state.sideMenu) {
+    //   cookieBackdrop = <CookieBackdrop click={this.cookieBackdropClickHandler}/>
+    // }
 
     return (
       <>
         {backdrop}
-        {cookieBackdrop}
+        {/* {cookieBackdrop} */}
         <BrowserRouter>
-          <Navbar />
+          <Navbar menuHandler={this.sideMenuClickHandler} />
+          <SideMenu show={this.state.sideMenu} click={this.backdropClickHandler}/>
           <Switch>
             <Route exact path='/' component={Home} />
             <Route path='/onas' component={About} />

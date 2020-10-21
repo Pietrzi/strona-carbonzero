@@ -1,30 +1,41 @@
-import React from 'react'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
 
-const SideMenu = () => {
+const SideMenu = (props) => {
+
+    let sideMenuClasses = 'side__menu'
+    if (props.show) {
+        sideMenuClasses = 'side__menu open'
+    }
+
     return (
-        <div class="mobile-nav-wrapper">
-            <ul class="mobile-nav">
-                <li class="mobile-link">
-                    <a href="#home">Home</a>
+        <div className={sideMenuClasses}>
+            <ul>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='/'>Home</NavLink>
                 </li>
-                <li class="mobile-link">
-                    <a href="#shows">Shows</a>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='onas'>O nas</NavLink>
                 </li>
-                <li class="mobile-link">
-                    <a href="#about">About</a>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='oferta'>Oferta</NavLink>
                 </li>
-                <li class="mobile-link">
-                    <a href="#videos">Videos</a>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='galeria'>Galeria</NavLink>
                 </li>
-                <li class="mobile-link">
-                    <a href="#gallery">Gallery</a>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='aktualnosci'>Aktualności</NavLink>
                 </li>
-                <li class="mobile-link">
-                    <a href="#contact">Contact</a>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='dotacje'>Dotacje</NavLink>
                 </li>
+                <li onClick={props.click}>
+                    <NavLink className="menu__link__element" to='kontakt'>Kontakt</NavLink>
+                </li>
+                
             </ul>
         </div>
     )
 }
 
-export default SideMenu
+export default SideMenu;
