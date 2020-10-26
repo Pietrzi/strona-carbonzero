@@ -1,11 +1,16 @@
 .info-container {
     width: 100vw;
     height: 320px;
-    padding: 30px 100px;
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between;
     // align-items: center;
     background-color: #212020;
+
+    @media (max-width: 650px) {
+        flex-wrap: wrap;
+        height: auto;
+    }
 
     .info-section-box {
         width: 380px;
@@ -13,6 +18,11 @@
         flex-direction: column;
         color: lightgray;
         // justify-content: center;
+
+        @media (max-width: 650px) {
+            width: 80vw;
+            margin-bottom: 20px;
+        }
 
         .info-title {
             font-size: 1.4rem;

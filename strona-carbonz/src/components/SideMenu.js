@@ -15,22 +15,22 @@ const SideMenu = (props) => {
                     <NavLink className="menu__link__element" to='/'>Home</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='onas'>O nas</NavLink>
+                    <NavLink className="menu__link__element" to='/onas'>O nas</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='oferta'>Oferta</NavLink>
+                    <NavLink className="menu__link__element" to='/oferta'>Oferta</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='galeria'>Galeria</NavLink>
+                    <NavLink className="menu__link__element" to='/galeria'>Galerie</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='aktualnosci'>Aktualności</NavLink>
+                    <NavLink className="menu__link__element" to='/aktualnosci'>Aktualności</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='dotacje'>Dotacje</NavLink>
+                    <NavLink className="menu__link__element" to='/dotacje'>Dotacje</NavLink>
                 </li>
                 <li onClick={props.click}>
-                    <NavLink className="menu__link__element" to='kontakt'>Kontakt</NavLink>
+                    <NavLink className="menu__link__element" to='/kontakt'>Kontakt</NavLink>
                 </li>
                 
             </ul>

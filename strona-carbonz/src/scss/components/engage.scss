@@ -4,6 +4,11 @@
     padding-top: 30px;
     background-color: lightblue;
 
+    @media (max-width: 650px) {
+        height: auto;
+        padding-bottom: 30px;
+    }
+
     h2 {
         color: black;
         font-size: 2rem;
@@ -16,6 +21,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
+        flex-wrap: wrap;
 
         h4 {
             color: black;
@@ -33,6 +39,10 @@
             text-decoration: none;
             background-color: black; 
             color: white;
+
+            @media (max-width: 650px) {
+                margin-bottom: 20px;
+            }
 
             &:hover {
                 color: lightblue;

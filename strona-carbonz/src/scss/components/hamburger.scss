@@ -1,17 +1,18 @@
 .button__container {
-    background: white;
+    background: lightblue;
     padding: 7px;
     margin-right: 50px;
   
-    // @media(max-width: 650px) {
-    //   padding: 5px;
-    // }
+    @media(max-width: 650px) {
+      padding: 5px;
+      margin-right: 20px;
+    }
   
     .toggle__button {
       display: flex;
       flex-direction: column;
       justify-content: space-around;
-      background: white;
+      background:  lightblue;
       height: 24px;
       width: 30px;
       border: none;

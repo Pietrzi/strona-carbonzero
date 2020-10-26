@@ -21,7 +21,7 @@ import News from './components/News';
 import Subsidies from './components/Subsidies.js';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
-import CookieBackdrop from './components/CookieBackdrop';
+// import CookieBackdrop from './components/CookieBackdrop';
 
 
 class App extends React.Component {
