@@ -4,11 +4,22 @@
     background-color: whitesmoke;
     padding-top: 200px;
 
+    @media (max-width: 650px) {
+        padding-top: 20px;
+        padding-bottom: 60px;
+    }
+
     .buttons-wrapper {
         width: 100%;
         display: flex;
         justify-content: space-around;
         align-items: center;
+
+        @media (max-width: 650px) {
+            height: 100%;
+            flex-direction: column;
+
+        }
 
         h4 {
             color: black;
