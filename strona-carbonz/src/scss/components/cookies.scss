@@ -1,0 +1,49 @@
+.cookie-container {
+    width: 100vw;
+    height: 80px;
+    background-color: white;
+    color: black;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    border-top: 1px black solid;
+
+    @media (max-width: 650px) {
+        height: auto;
+        flex-wrap: wrap;
+    }
+
+    p {
+        margin: 0 20px;
+
+        @media (max-width: 650px) {
+            margin: 10px 20px;
+        }
+    }
+
+    button {
+        margin: 0 20px;
+        padding: 6px;
+        font-size: 1.1rem;
+
+        &:hover {
+            cursor: pointer;
+        }
+
+        @media (max-width: 650px) {
+            margin: 10px 20px 20px;
+        }
+    }
+
+    .button-accept {
+        background-color: white;
+    }
+
+    .button-reject {
+        background-color: black;
+        color: white;
+    }
+}

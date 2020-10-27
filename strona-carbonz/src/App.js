@@ -21,13 +21,14 @@ import News from './components/News';
 import Subsidies from './components/Subsidies.js';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
-// import CookieBackdrop from './components/CookieBackdrop';
+import Cookies from './components/Cookies';
+//import CookieBackdrop from './components/CookieBackdrop';
 
 
 class App extends React.Component {
   state = {
     sideMenu: false,
-    cookieBackdrop: false
+    cookie: true
   }
 
   sideMenuClickHandler = () => {
@@ -39,6 +40,12 @@ class App extends React.Component {
   backdropClickHandler = () => {
     this.setState({
       sideMenu: false
+    })
+  }
+
+  cookieClickHandler = () => {
+    this.setState({
+      cookie: false
     })
   }
 
@@ -55,6 +62,11 @@ class App extends React.Component {
       backdrop = <Backdrop click={this.backdropClickHandler}/>
     }
 
+    let cookie;
+    if (this.state.cookie) {
+      cookie = <Cookies click={this.cookieClickHandler}/>
+    }
+
     // let cookieBackdrop;
     // if (this.state.sideMenu) {
     //   cookieBackdrop = <CookieBackdrop click={this.cookieBackdropClickHandler}/>
@@ -63,6 +75,7 @@ class App extends React.Component {
     return (
       <>
         {backdrop}
+        {cookie}
         {/* {cookieBackdrop} */}
         <BrowserRouter>
           <Navbar menuHandler={this.sideMenuClickHandler} />
