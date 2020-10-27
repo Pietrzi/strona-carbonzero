@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fe86a203333861b2f4d136401bf7ea04",
+    "revision": "14592abaef6fb68b9fbc3a15dd5088d7",
     "url": "/strona-carbonzero/index.html"
   },
   {
-    "revision": "d97aa9663f22bd3ad84f",
-    "url": "/strona-carbonzero/static/css/main.149155a3.chunk.css"
+    "revision": "be9b7137a2fc20811dbb",
+    "url": "/strona-carbonzero/static/css/main.6df290f2.chunk.css"
   },
   {
-    "revision": "0d30c870898df0d8938b",
-    "url": "/strona-carbonzero/static/js/2.bac2fcb4.chunk.js"
+    "revision": "2628fe99d2b78cc9f31b",
+    "url": "/strona-carbonzero/static/js/2.851fe1e6.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/strona-carbonzero/static/js/2.bac2fcb4.chunk.js.LICENSE.txt"
+    "url": "/strona-carbonzero/static/js/2.851fe1e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d97aa9663f22bd3ad84f",
-    "url": "/strona-carbonzero/static/js/main.5c4a0d1e.chunk.js"
+    "revision": "be9b7137a2fc20811dbb",
+    "url": "/strona-carbonzero/static/js/main.0cdeabb8.chunk.js"
   },
   {
     "revision": "5ed73c90ec01c1c3d941",
