@@ -7,11 +7,25 @@
     justify-content: space-around;
     align-items: center;
 
+    @media (max-width: 650px) {
+        flex-wrap: wrap;
+        height: auto;
+    }
+
     .about-img-holder {
         width: 500px;
         height: 500px;
         position: relative;
         top: 70px;
+
+        @media (max-width: 650px) {
+            width: 100vw;
+            height: 220px;
+            top: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
         img {
             max-width: 100%;
@@ -24,9 +38,15 @@
         height: 550px;
         color: grey;
 
+        @media (max-width: 650px) {
+            height: auto;
+            padding: 0 20px;
+        }
+
         .about-title {
             font-size: 1.7rem;
             color: lightblue;
+            margin-top: 10px;
             margin-bottom: 20px;
         }
 

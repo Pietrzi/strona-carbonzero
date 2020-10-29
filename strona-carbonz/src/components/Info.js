@@ -12,7 +12,7 @@ const Info = () => {
                 <p className="info-text"> NIP: 567-171-10-09</p>
                 <p className="info-text margbot">REGON: 367897610</p>
                 <p className="info-text margbot">e-mail: biuro@carbonzero.pl</p>
-                <p className="info-text">POMPY CIEPŁA I REKUPERACJA: +48 603 756 412</p>
+                <p className="info-text">POMPY CIEPŁA I REKUPERACJA:</p><span>+48 603 756 412</span>
                 <p className="info-text">SERWIS: +48 608 387 064</p>
             </div>
             <div className="info-section-box altalign">

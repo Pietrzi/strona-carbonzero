@@ -11,23 +11,40 @@
 
     .logos-container {
         width: 100%;
-        padding: 0 80px;
+        padding: 0 40px;
+        padding-bottom: 20px;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
 
+        @media (max-width: 650px) {
+            padding: 0 5px;
+            padding-bottom: 30px;
+        }
+
         img {
-            margin: 1px 15px;
-            transform: scale(0.6);
+            margin: 1px 5px;
+            width: 260px;
+            height: 70px;
+            object-fit: fill;
+            transform: scale(0.7);
+
+            @media (max-width: 650px) {
+                margin: 1 2p;
+                width: 130px;
+                height: 35px;
+                transform: scale(0.7);
+            }
+
         }
 
         .logo4 {
-            transform: scale(1);
+            //transform: scale(1);
         }
 
         .logo8 {
-            transform: scale(1);
+            //transform: scale(1);
         }
     }
 }
