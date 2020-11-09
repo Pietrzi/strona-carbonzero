@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "beeeeba25264e5d18887241d4e4bb00b",
+    "revision": "b09594b8b4634bca77b7e7c36f0c5852",
     "url": "/strona-carbonzero/index.html"
   },
   {
-    "revision": "cc547785f491439c7d5c",
-    "url": "/strona-carbonzero/static/css/main.43cf041a.chunk.css"
+    "revision": "7a221b960c0963881db5",
+    "url": "/strona-carbonzero/static/css/main.6370b1be.chunk.css"
   },
   {
     "revision": "2628fe99d2b78cc9f31b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strona-carbonzero/static/js/2.851fe1e6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "cc547785f491439c7d5c",
-    "url": "/strona-carbonzero/static/js/main.3276f542.chunk.js"
+    "revision": "7a221b960c0963881db5",
+    "url": "/strona-carbonzero/static/js/main.d9503957.chunk.js"
   },
   {
     "revision": "5ed73c90ec01c1c3d941",

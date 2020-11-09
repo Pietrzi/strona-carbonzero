@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/strona-carbonzero/precache-manifest.e214e0726d8e930305da51730dd43f56.js"
+  "/strona-carbonzero/precache-manifest.39985c2203a9f393378e9984c453a797.js"
 );
 
 self.addEventListener('message', (event) => {
