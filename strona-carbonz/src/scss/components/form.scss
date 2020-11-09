@@ -1,9 +1,25 @@
-.form {
+.form-section {
     width: 100vw;
     height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
+    background-color: #efefef;
     color: black;
+}
+
+.form {
+    width: 600px;
+
+    @media (max-width: 650px) {
+        width: 300px;
+    }
+}
+
+.input-field [type=text] {
+    color: black;
+}
+
+.btn {
+    background-color: lightblue;
 }
