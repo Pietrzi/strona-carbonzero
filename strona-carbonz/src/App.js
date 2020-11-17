@@ -15,7 +15,7 @@ import Gallery2 from './components/Gallery2';
 import Gallery3 from './components/Gallery3';
 import Gallery4 from './components/Gallery4';
 import Contact from './components/Contact';
-import ContactUs from './components/ContactUs';
+import Send from './components/Send';
 import Footer from './components/Footer';
 import Partners from './components/Partners';
 import News from './components/News';
@@ -27,9 +27,15 @@ import Cookies from './components/Cookies';
 
 
 class App extends React.Component {
-  state = {
-    sideMenu: false,
-    cookie: true
+  constructor(props){
+    super(props);
+    this.state = {
+      sideMenu: false,
+      cookie: true,
+      dataChecked: false
+    };
+
+    this.handleInputChange = this.handleInputChange.bind(this);
   }
 
   sideMenuClickHandler = () => {
@@ -48,6 +54,15 @@ class App extends React.Component {
     this.setState({
       cookie: false
     })
+  }
+
+  handleInputChange(event) {
+    const target = event.target;
+    const value = target.type === 'checkbox' ? target.checked : target.value;
+
+    this.setState({
+      dataChecked: value
+    });
   }
 
   // cookieBackdropClickHandler = () => {
@@ -91,8 +106,9 @@ class App extends React.Component {
             <Route path='/ogrzewaniepodlogowe' component={Gallery4} />
             <Route path='/oferta' component={Offer} />
             <Route path='/kontakt' component={Contact} />
-            <Route path='/zapytanie' component={AskForm} />
+            <Route path='/zapytanie' render={(props) => <AskForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
             <Route path='/serwis' component={ServiceForm} />
+            <Route path='/send'component={Send} />
             <Route path='/aktualnosci' component={News} />
             <Route path='/dotacje' component={Subsidies} />
           </Switch>

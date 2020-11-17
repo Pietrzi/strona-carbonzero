@@ -26,8 +26,13 @@ const Info = () => {
                 <NavLink to='/kontakt'><p>Kontakt</p></NavLink>
             </div>
             <div className="info-section-box altalign">
-                <p className="info-title">Dołącz do nas</p>
-                <p className="info-text"> ikonki social media</p>
+                <div>
+                    <p className="info-title">Dołącz do nas</p>
+                    <p className="info-text"> ikonki social media</p>
+                </div>
+                <div>
+                    <button>RODO</button>
+                </div>
             </div>
         </section>
     )

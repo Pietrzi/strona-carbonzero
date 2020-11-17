@@ -1,0 +1,17 @@
+.send-container {
+    width: 100vw;
+    height: calc(100vh - 80px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #efefef;
+
+    h5 {
+        color: green;
+
+        @media (max-width: 780px) {
+            text-align: center;
+            padding: 0 20px;
+        }
+    }
+}
