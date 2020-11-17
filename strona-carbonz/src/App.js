@@ -15,6 +15,7 @@ import Gallery2 from './components/Gallery2';
 import Gallery3 from './components/Gallery3';
 import Gallery4 from './components/Gallery4';
 import Contact from './components/Contact';
+import ContactUs from './components/ContactUs';
 import Footer from './components/Footer';
 import Partners from './components/Partners';
 import News from './components/News';

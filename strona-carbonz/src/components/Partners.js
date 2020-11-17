@@ -21,3 +21,7 @@ const Partners = () => {
 }
 
 export default Partners
+
+
+// "homepage": "https://pietrzi.github.io/strona-carbonzero",
+// "deploy": "gh-pages -d build"
