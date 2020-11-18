@@ -40,6 +40,12 @@ const AskForm = (props) =>{
                         </div>
                     </div>
                     <div className="row">
+                        <div className="input-field col s12" >
+                        <input id="phone" type="tel" className="validate" name="phone_number" />
+                        <label htmlFor="phone" className="active">Telefon</label>
+                        </div>
+                    </div>
+                    <div className="row">
                         <div className="input-field col s12">
                             <textarea id="textarea1" className="materialize-textarea" name="message"></textarea>
                             <label htmlFor="textarea1" className="active">Treść wiadomości</label>

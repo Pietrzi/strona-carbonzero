@@ -3,7 +3,7 @@ import React from 'react'
 const Partners = () => {
     return (
         <section className="partners-section">
-            <h2>Nasza firma współpracuje z takimi partnerami jak:</h2>
+            <h2>Wspierają nas</h2>
             <div className="logos-container">
             <img src={require('../assets/comp1.png')} alt="logo1" className="logo1"/>
             <img src={require('../assets/comp2.png')} alt="logo2" className="logo2"/>

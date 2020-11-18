@@ -72,3 +72,9 @@
         cursor: pointer;
     }
 }
+
+.social-section-box {
+    @media (max-width: 650px) {
+        height: 160px;
+    }
+}

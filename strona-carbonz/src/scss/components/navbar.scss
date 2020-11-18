@@ -3,9 +3,24 @@
     height: 80px;
     background-color: #000000 !important;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     z-index: 10;
+
+    img {
+        height: 80px;
+        margin-left: 80px;
+
+        @media (max-width: 1002px) {
+            height: 60px;
+            margin-left: 40px;
+        }
+
+        @media (max-width: 650px) {
+            height: 60px;
+            margin-left: 20px;
+        }
+    }
 
     ul {
         width: 800px;
@@ -14,7 +29,7 @@
         justify-content: space-between;
         align-items: center;
         list-style-type: none;
-        margin-right: 100px;
+        margin-right: 80px;
 
         @media (max-width: 1002px) {
         display: none;

@@ -1,37 +1,69 @@
-import React from 'react'
+import React from 'react';
+import { useHistory } from "react-router-dom";
+import emailjs from 'emailjs-com';
 
-const ServiceForm = () => {
+
+const AskForm = (props) =>{
+
+    const history = useHistory();
+
+    const navigate = () => {
+        history.push("/send")
+    }
+
+    function sendEmail(e) {
+        e.preventDefault();
+    
+    
+    emailjs.sendForm("service_cr64cbs","template_o6ozybf", e.target,
+        'user_HPWhFktehby6V0OYeTy01'
+        ).then(navigate)
+    }
+
+
     return (
+
         <div className="form-section">
-                <form class="col s12 form">
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <input id="first_name" type="text" class="validate" />
-                            <label for="first_name" class="active">Imię i nazwisko</label>
+                <form className="col s12 form" onSubmit={sendEmail}>
+                    <input type='hidden' name="to_name" value="CarbonZero" />
+                    <div className="row">
+                        <div className="input-field col s12">
+                            <input id="first_name" type="text" className="validate" name="from_name" />
+                            <label htmlFor="first_name" className="active">Imię i nazwisko</label>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12" >
-                        <input id="email" type="email" class="validate" />
-                        <label for="email" class="active">Email</label>
+                    <div className="row">
+                        <div className="input-field col s12" >
+                        <input id="email" type="email" className="validate" name="user_email" />
+                        <label htmlFor="email" className="active">Email</label>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="input-field col s12">
-                            <textarea id="textarea1" class="materialize-textarea"></textarea>
-                            <label for="textarea1" class="active">Treść wiadomości</label>
+                    <div className="row">
+                        <div className="input-field col s12" >
+                        <input id="phone" type="tel" className="validate" name="phone_number" />
+                        <label htmlFor="phone" className="active">Telefon</label>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="input-field col s12">
+                            <textarea id="textarea1" className="materialize-textarea" name="message"></textarea>
+                            <label htmlFor="textarea1" className="active">Treść wiadomości</label>
                         </div>
                     </div>
                     <label>
-                        <input type="checkbox" class="filled-in"/>
+                        <input 
+                            name="dataChecked" 
+                            type="checkbox"
+                            checked={props.checked}
+                            onChange={props.handle}
+                            className="filled-in"
+                            />
                         <span>Korzystając z formularza zgadzasz się na przechowywanie i przetwarzanie twoich danych przez tę witrynę.</span>
                     </label>
-                    <div className="input-field">
-                        <button className="btn darken-3 z-depth-0 adjust">wyślij</button>
-                    </div>
+                    <input disabled={!props.checked} type="submit" value="Send" className="btn darken-3 z-depth-0 adjust send-btn"/>
                 </form>
         </div>
-    )
+    );
 }
 
-export default ServiceForm
+export default AskForm;

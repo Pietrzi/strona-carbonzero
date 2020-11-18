@@ -7,4 +7,32 @@
     justify-content: center;
     align-items: center;
     font-size: 2rem;
+
+    @media (max-width: 650px) {
+        height: auto;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .offer-text-container {
+        width: 600px;
+
+        @media (max-width: 650px) {
+            width: 280px;
+        }
+
+        h5 {
+
+            @media (max-width: 650px) {
+                font-size: 1.2rem;
+            }
+        }
+
+        h6 {
+
+            @media (max-width: 650px) {
+                font-size: 1rem;
+            }
+        }
+    }
 }

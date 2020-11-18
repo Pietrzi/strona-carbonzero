@@ -14,9 +14,9 @@ const SideMenu = (props) => {
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/'>Home</NavLink>
                 </li>
-                <li onClick={props.click}>
+                {/* <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/onas'>O nas</NavLink>
-                </li>
+                </li> */}
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/oferta'>Oferta</NavLink>
                 </li>

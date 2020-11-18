@@ -25,7 +25,7 @@ const Info = () => {
                 <NavLink to='/dotacje'><p>Dotacje</p></NavLink>
                 <NavLink to='/kontakt'><p>Kontakt</p></NavLink>
             </div>
-            <div className="info-section-box altalign">
+            <div className="info-section-box altalign social-section-box">
                 <div>
                     <p className="info-title">Dołącz do nas</p>
                     <p className="info-text"> ikonki social media</p>
