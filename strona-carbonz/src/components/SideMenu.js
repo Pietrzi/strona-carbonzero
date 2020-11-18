@@ -23,12 +23,12 @@ const SideMenu = (props) => {
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/galeria'>Galerie</NavLink>
                 </li>
-                <li onClick={props.click}>
+                {/* <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/aktualnosci'>Aktualności</NavLink>
-                </li>
-                <li onClick={props.click}>
+                </li> */}
+                {/* <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/dotacje'>Dotacje</NavLink>
-                </li>
+                </li> */}
                 <li onClick={props.click}>
                     <NavLink className="menu__link__element" to='/kontakt'>Kontakt</NavLink>
                 </li>

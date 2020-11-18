@@ -1,0 +1,28 @@
+.rodo-container {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .rodo-box {
+        width: 800px;
+        height: 80%;
+        overflow-y: scroll;
+        background-color: white;
+        color: darkgray;
+        padding: 20px;
+
+        @media (max-width: 650px) {
+            width: 280px;
+        }
+
+        p {
+            padding-bottom: 10px;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-const Info = () => {
+const Info = (props) => {
     return (
         <section className="info-container">
             <div className="info-section-box">
@@ -31,7 +31,7 @@ const Info = () => {
                     <p className="info-text"> ikonki social media</p>
                 </div>
                 <div>
-                    <button>RODO</button>
+                    <button onClick={props.click}>RODO</button>
                 </div>
             </div>
         </section>

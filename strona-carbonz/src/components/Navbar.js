@@ -19,12 +19,12 @@ const Navbar = (props) => {
                 <li>
                     <NavLink to='/galeria'>Galerie</NavLink>
                 </li>
-                <li>
+                {/* <li>
                     <NavLink to='/aktualnosci'>Aktualności</NavLink>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                     <NavLink to='/dotacje'>Dotacje</NavLink>
-                </li>
+                </li> */}
                 <li>
                     <NavLink to='/kontakt'>Kontakt</NavLink>
                 </li>

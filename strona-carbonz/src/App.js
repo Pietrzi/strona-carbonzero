@@ -23,7 +23,7 @@ import Subsidies from './components/Subsidies.js';
 import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
 import Cookies from './components/Cookies';
-//import CookieBackdrop from './components/CookieBackdrop';
+import Rodo from './components/Rodo';
 
 
 class App extends React.Component {
@@ -32,7 +32,8 @@ class App extends React.Component {
     this.state = {
       sideMenu: false,
       cookie: true,
-      dataChecked: false
+      dataChecked: false,
+      rodo: false
     };
 
     this.handleInputChange = this.handleInputChange.bind(this);
@@ -65,11 +66,17 @@ class App extends React.Component {
     });
   }
 
-  // cookieBackdropClickHandler = () => {
-  //   this.setState({
-  //     cookieBackdrop: false
-  //   })
-  // }
+  rodOnClickHandler = () => {
+    this.setState({
+      rodo: true
+    })
+  }
+
+  rodOffClickHandler = () => {
+    this.setState({
+      rodo: false
+    })
+  }
 
   render() {
 
@@ -83,6 +90,11 @@ class App extends React.Component {
       cookie = <Cookies click={this.cookieClickHandler}/>
     }
 
+    let rodo;
+    if (this.state.rodo) {
+      rodo = <Rodo click={this.rodOffClickHandler}/>
+    }
+
     // let cookieBackdrop;
     // if (this.state.sideMenu) {
     //   cookieBackdrop = <CookieBackdrop click={this.cookieBackdropClickHandler}/>
@@ -92,6 +104,7 @@ class App extends React.Component {
       <>
         {backdrop}
         {cookie}
+        {rodo}
         {/* {cookieBackdrop} */}
         <BrowserRouter>
           <Navbar menuHandler={this.sideMenuClickHandler} />
@@ -110,11 +123,11 @@ class App extends React.Component {
             <Route path='/serwis' render={(props) => <ServiceForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
             {/* <Route path='/serwis' component={ServiceForm} /> */}
             <Route path='/send'component={Send} />
-            <Route path='/aktualnosci' component={News} />
-            <Route path='/dotacje' component={Subsidies} />
+            {/* <Route path='/aktualnosci' component={News} />
+            <Route path='/dotacje' component={Subsidies} /> */}
           </Switch>
           <Partners />
-          <Info />
+          <Info click={this.rodOnClickHandler}/>
           <Footer />
         </BrowserRouter>
       </>
