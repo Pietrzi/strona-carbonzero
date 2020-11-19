@@ -8,5 +8,10 @@ footer {
 
     p {
         color: lightblue;
+        font-weight: 300;
     }
+
+    @media (max-width: 650px) {
+        padding: 0 20px
+        }
 }

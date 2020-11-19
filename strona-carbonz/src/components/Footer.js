@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <footer>
-            <p>footer</p>
+            <p className="footer-text">&copy; 2020 Carbonzero All rights reserved Created by Michał Pietrzak</p>
         </footer>
     )
 }
