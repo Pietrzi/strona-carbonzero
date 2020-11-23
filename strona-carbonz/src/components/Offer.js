@@ -15,7 +15,7 @@ const Offer = () => {
                     <h6> - kotły na pellet</h6>
                     <h6> - kotły gazowe</h6>
                     <h6> - stacje uzdatniania wody</h6>
-                    <h6> - serwis przydomnych oczyszczalni ścieków</h6>
+                    <h6> - serwis przydomowych oczyszczalni ścieków</h6>
                 </div>
             </section>
             <Engage />

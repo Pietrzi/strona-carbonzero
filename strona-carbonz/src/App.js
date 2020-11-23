@@ -20,7 +20,6 @@ import Footer from './components/Footer';
 import Partners from './components/Partners';
 import News from './components/News';
 import Subsidies from './components/Subsidies.js';
-import Backdrop from './components/Backdrop';
 import SideMenu from './components/SideMenu';
 import Cookies from './components/Cookies';
 import Rodo from './components/Rodo';
@@ -42,12 +41,6 @@ class App extends React.Component {
   sideMenuClickHandler = () => {
     this.setState(prevState => {
       return { sideMenu: !prevState.sideMenu }
-    })
-  }
-
-  backdropClickHandler = () => {
-    this.setState({
-      sideMenu: false
     })
   }
 
@@ -80,11 +73,6 @@ class App extends React.Component {
 
   render() {
 
-    let backdrop;
-    if (this.state.sideMenu) {
-      backdrop = <Backdrop click={this.backdropClickHandler}/>
-    }
-
     let cookie;
     if (this.state.cookie) {
       cookie = <Cookies click={this.cookieClickHandler}/>
@@ -95,14 +83,8 @@ class App extends React.Component {
       rodo = <Rodo click={this.rodOffClickHandler}/>
     }
 
-    // let cookieBackdrop;
-    // if (this.state.sideMenu) {
-    //   cookieBackdrop = <CookieBackdrop click={this.cookieBackdropClickHandler}/>
-    // }
-
     return (
       <>
-        {backdrop}
         {cookie}
         {rodo}
         {/* {cookieBackdrop} */}

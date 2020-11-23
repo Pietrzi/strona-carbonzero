@@ -13,7 +13,7 @@ const Info = (props) => {
                 <p className="info-text margbot">REGON: 367897610</p>
                 <p className="info-text margbot">e-mail: biuro@carbonzero.pl</p>
                 <p className="info-text">POMPY CIEPŁA I REKUPERACJA:</p><span>+48 603 756 412</span>
-                <p className="info-text">SERWIS: +48 608 387 064</p>
+                <p className="info-text">SERWIS:</p><span>+48 608 387 064</span>
             </div>
             <div className="info-section-box altalign">
                 <p className="info-title">Przejdź do</p>
