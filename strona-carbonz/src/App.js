@@ -2,7 +2,6 @@ import React from 'react';
 import './scss/style.scss';
 import { Switch, BrowserRouter, Route } from 'react-router-dom';
 
-// import About from './components/About';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Info from './components/Info';
@@ -18,8 +17,6 @@ import Contact from './components/Contact';
 import Send from './components/Send';
 import Footer from './components/Footer';
 import Partners from './components/Partners';
-import News from './components/News';
-import Subsidies from './components/Subsidies.js';
 import SideMenu from './components/SideMenu';
 import Cookies from './components/Cookies';
 import Rodo from './components/Rodo';
@@ -90,10 +87,9 @@ class App extends React.Component {
         {/* {cookieBackdrop} */}
         <BrowserRouter>
           <Navbar menuHandler={this.sideMenuClickHandler} />
-          <SideMenu show={this.state.sideMenu} click={this.backdropClickHandler}/>
+          <SideMenu show={this.state.sideMenu} click={this.sideMenuClickHandler}/>
           <Switch>
             <Route exact path='/' component={Home} />
-            {/* <Route path='/onas' component={About} /> */}
             <Route path='/galeria' component={Gallery} />
             <Route path='/powietrznepompy' component={Gallery1} />
             <Route path='/gruntowepompy' component={Gallery2} />
@@ -103,10 +99,7 @@ class App extends React.Component {
             <Route path='/kontakt' component={Contact} />
             <Route path='/zapytanie' render={(props) => <AskForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
             <Route path='/serwis' render={(props) => <ServiceForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
-            {/* <Route path='/serwis' component={ServiceForm} /> */}
             <Route path='/send'component={Send} />
-            {/* <Route path='/aktualnosci' component={News} />
-            <Route path='/dotacje' component={Subsidies} /> */}
           </Switch>
           <Partners />
           <Info click={this.rodOnClickHandler}/>
