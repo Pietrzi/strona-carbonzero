@@ -78,4 +78,30 @@
     @media (max-width: 650px) {
         height: 160px;
     }
+
+    .social-icons-holder {
+        width: 100px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+
+        .facebook {
+            width: 40px;
+            height: 40px;
+            background-image: url('../../assets/facik.png');
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+        }
+
+        .linkedin {
+            width: 40px;
+            height: 40px;
+            background-image: url('../../assets/linked.png');
+            background-position: center;
+            background-size: cover;
+            cursor: pointer;
+        }
+    }
 }
