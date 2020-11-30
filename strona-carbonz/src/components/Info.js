@@ -30,7 +30,6 @@ const Info = (props) => {
                     <p className="info-title">Dołącz do nas</p>
                     <div className="social-icons-holder">
                         <a href="https://www.facebook.com/carbonzeropl" target="_blank" rel="noopener noreferrer"><div className="facebook"></div></a>
-                        <a href="https://www.linkedin.com/company/18764488" target="_blank" rel="noopener noreferrer"><div className="linkedin"></div></a>
                     </div>
                 </div>
                 <div>
