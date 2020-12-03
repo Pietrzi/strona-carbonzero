@@ -1,5 +1,6 @@
 import React from 'react';
 import Engage from './Engage';
+import ReactPlayer from 'react-player';
 
 const Offer = () => {
     return (
@@ -18,6 +19,15 @@ const Offer = () => {
                     <h6> - serwis przydomowych oczyszczalni ścieków</h6>
                 </div>
             </section>
+            <div className='player-wrapper'>
+                    <ReactPlayer
+                    className='react-player'
+                    url='https://www.youtube.com/watch?v=P0i7RI_Sy8s&t=5s'
+                    width='100%'
+                    height='100%'
+                    controls={true}
+                    />
+            </div>
             <Engage />
         </>
     )
