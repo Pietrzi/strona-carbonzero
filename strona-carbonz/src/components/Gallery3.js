@@ -7,7 +7,7 @@ const Gallery3 = () => {
     let history = useHistory();
     return (
         <>
-            <section>
+            <section className="inner-gallery">
                 <h2 
                 className="back"
                 onClick={() => history.goBack()}

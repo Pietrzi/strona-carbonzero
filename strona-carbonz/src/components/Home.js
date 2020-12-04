@@ -10,7 +10,8 @@ const Home = () => {
         <>
             <section className="about-section">
                 <div className="about-img-holder">
-                    <img src={require('../assets/graf3.jpg')} alt="grafika pompy cieplnej" className="about-img"/>
+                    {/* <img src={require('../assets/graf3.jpg')} alt="grafika pompy cieplnej" className="about-img"/> */}
+                    <img src={require('../assets/log.png')} alt="logo" className="about-img"/>
                 </div>
                 <div className="about-text-holder">
                     {/* <p className="about-title">O nas</p> */}

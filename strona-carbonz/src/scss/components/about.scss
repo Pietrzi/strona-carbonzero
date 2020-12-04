@@ -36,7 +36,6 @@
     .about-text-holder {
         width: 500px;
         height: 550px;
-        color: grey;
 
         @media (max-width: 650px) {
             height: auto;
@@ -45,7 +44,6 @@
 
         .about-title {
             font-size: 1.7rem;
-            color: lightblue;
             margin-top: 10px;
             margin-bottom: 20px;
         }

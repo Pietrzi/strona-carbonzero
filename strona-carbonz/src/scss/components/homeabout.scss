@@ -15,8 +15,7 @@
     .about-img-holder {
         width: 500px;
         height: 500px;
-        position: relative;
-        top: 70px;
+        
 
         @media (max-width: 1056px) {
             width: 400px;
@@ -24,8 +23,7 @@
 
         @media (max-width: 650px) {
             width: 100vw;
-            height: 220px;
-            top: 0;
+            height: 180px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -34,6 +32,19 @@
         img {
             max-width: 100%;
             object-fit: fill;
+            position: relative;
+            bottom: 50px;
+            left: 50px;
+
+            @media (max-width: 1056px) {
+                bottom: 0;
+                left: 0;
+            }
+
+            @media (max-width: 650px) {
+                top: 40px;
+                transform: scale(0.8);
+            }
         }
     }
 
@@ -48,7 +59,7 @@
 
         @media (max-width: 650px) {
             height: auto;
-            padding: 0 20px;
+            padding-top: 100px;
         }
 
         .about-title {

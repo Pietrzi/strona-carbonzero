@@ -5,7 +5,7 @@ import { NavLink } from 'react-router-dom';
 const Navbar = (props) => {
     return (
         <nav className="navbar">
-            <img src={require('../assets/log.png')} alt="grafika pompy cieplnej" className="about-img"/>
+            {/* <img src={require('../assets/log.png')} alt="grafika pompy cieplnej" className="about-img"/> */}
             <ul>
                 <li>
                     <NavLink to='/'>Home</NavLink>
