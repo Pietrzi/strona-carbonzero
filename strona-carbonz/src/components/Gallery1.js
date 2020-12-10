@@ -13,7 +13,7 @@ const Gallery1 = () => {
                 onClick={() => history.goBack()}
                 >powrót</h2>
                 <div className="gallery-section">
-                    <img src={require('../assets/pomp1.jpg')} alt="pompa ciepła1"/>
+                    <img src={require('../assets/pomp1-kopia.jpg')} alt="pompa ciepła1"/>
                 </div>
             </section>
             <Engage />

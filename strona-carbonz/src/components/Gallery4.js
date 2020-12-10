@@ -13,9 +13,9 @@ const Galler4 = () => {
                 onClick={() => history.goBack()}
                 >powrót</h2>
                 <div className="gallery-section">
-                    <img src={require('../assets/salon2.jpg')} alt="salon2"/>
-                    <img src={require('../assets/salon1.jpg')} alt="salon1"/>
-                    <img src={require('../assets/lazienka1.jpg')} alt="lazienka"/>
+                    <img src={require('../assets/salon2-kopia.jpg')} alt="salon2"/>
+                    <img src={require('../assets/salon1-kopia.jpg')} alt="salon1"/>
+                    <img src={require('../assets/lazienka1-kopia.jpg')} alt="lazienka"/>
                 </div>
             </section>
             <Engage />

@@ -75,6 +75,7 @@
             color: lightblue;
             padding-right: 0 10px;
             text-align: justify;
+            line-height: 19px;
 
             @media (max-width: 1056px) {
                 font-size: 1.5;
@@ -84,7 +85,24 @@
         .bold {
             font-weight: 700;
             letter-spacing: 1px;
+            font-size: 1.2rem;
             text-decoration: underline;
         }
+
+        .special {
+            margin-top: 14px;
+            margin-bottom: 14px;
+        }
     }
+}
+
+
+
+.right-arrow {
+    width: 20px;
+    height: 17px;
+    filter: invert(85%) sepia(28%) saturate(264%) hue-rotate(152deg) brightness(92%) contrast(95%);
+    margin-right: 7px;
+    position: relative;
+    top: 3px;
 }
