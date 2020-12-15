@@ -14,6 +14,8 @@ const Gallery1 = () => {
                 >powrót</h2>
                 <div className="gallery-section">
                     <img src={require('../assets/pomp1-kopia.jpg')} alt="pompa ciepła1"/>
+                    <img src={require('../assets/pomp3-kopia.jpg')} alt="pompa ciepła3"/>
+                    <img src={require('../assets/pomp4-kopia.jpg')} alt="pompa ciepła4"/>
                 </div>
             </section>
             <Engage />
