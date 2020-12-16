@@ -47,6 +47,29 @@ const Offer = () => {
                         controls={true}
                         />
                 </div>
+                <div className='player-wrapper'>
+                        <ReactPlayer
+                        className='react-player'
+                        url='https://mab.to/w0XP3KHD1'
+                        width='100%'
+                        height='100%'
+                        controls={true}
+                        />
+                </div>
+            </section>
+            <section className="offer-links">
+                <div className="offer-links-box">
+                    <p className="offer-link-title">Regulator pompy ciepła i jego możliwości</p>
+                    <a rel="noopener noreferrer" href="https://simulator.vaillant.com/vrc700_6/pl/" target="_blank">
+                        <button>Zobacz</button>
+                    </a>
+                </div>
+                <div className="offer-links-box">
+                    <p className="offer-link-title">Sprawdź akustykę powietrznej pompy ciepła</p>
+                    <a rel="noopener noreferrer" href="https://simulator.vaillant.com/soundbox/int/?langs=PL&startlang=PL&products=ATS,ATM,ACL,RCE,VTP&startproduct=ATS&theme=VAI&volume=0#!/pl/aroTHERM_55-5/intro" target="_blank">
+                        <button>Zobacz</button>
+                    </a>
+                </div>
             </section>
             <Engage />
         </>

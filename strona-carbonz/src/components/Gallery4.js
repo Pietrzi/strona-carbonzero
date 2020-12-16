@@ -13,9 +13,14 @@ const Galler4 = () => {
                 onClick={() => history.goBack()}
                 >powrót</h2>
                 <div className="gallery-section">
-                    <img src={require('../assets/salon2-kopia.jpg')} alt="salon2"/>
-                    <img src={require('../assets/salon1-kopia.jpg')} alt="salon1"/>
-                    <img src={require('../assets/lazienka1-kopia.jpg')} alt="lazienka"/>
+                    <img src={require('../assets/salon2-kopia.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/salon1-kopia.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo1.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo2.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo3.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo4.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo5.jpg')} alt="ogrzewanie podłogowe"/>
+                    <img src={require('../assets/podlo6.jpg')} alt="ogrzewanie podłogowe"/>
                 </div>
             </section>
             <Engage />

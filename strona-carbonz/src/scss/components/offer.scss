@@ -38,3 +38,52 @@
         }
     }
 }
+
+.offer-links {
+    width: 100vw;
+    height: 200px;
+    background-color: snow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 1008px) {
+        height: 300px;
+        flex-direction: column;
+    }
+
+    @media (max-width: 650px) {
+        height: 350px;
+    }
+
+    .offer-links-box {
+        color: black;
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        @media (max-width: 1008px) {
+            margin: 20px;
+        }
+
+        .offer-link-title {
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        button {
+            font-size: 1.3rem;
+            padding: 10px 40px;
+            margin-top: 20px;
+            background-color: black;
+            color: lightblue;
+
+             &:hover {
+                 cursor: pointer;
+                 color: white;
+             }
+        }
+    }
+}
