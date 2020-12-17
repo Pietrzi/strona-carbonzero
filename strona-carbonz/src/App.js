@@ -20,6 +20,7 @@ import Partners from './components/Partners';
 import SideMenu from './components/SideMenu';
 import Cookies from './components/Cookies';
 import Rodo from './components/Rodo';
+import Subsidies from './components/Subsidies';
 
 
 class App extends React.Component {
@@ -96,6 +97,7 @@ class App extends React.Component {
             <Route path='/rekuperacja' component={Gallery3} />
             <Route path='/ogrzewaniepodlogowe' component={Gallery4} />
             <Route path='/oferta' component={Offer} />
+            <Route path='/dotacje' component={Subsidies} />
             <Route path='/kontakt' component={Contact} />
             <Route path='/zapytanie' render={(props) => <AskForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
             <Route path='/serwis' render={(props) => <ServiceForm {...props} handle={this.handleInputChange} checked={this.state.dataChecked}/>}></Route>
