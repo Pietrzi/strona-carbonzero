@@ -2,6 +2,7 @@ import React from 'react';
 import Engage from './Engage';
 import ReactPlayer from 'react-player';
 
+
 const Offer = () => {
     return (
         <>
@@ -50,7 +51,7 @@ const Offer = () => {
                 <div className='player-wrapper'>
                         <ReactPlayer
                         className='react-player'
-                        url='https://mab.to/w0XP3KHD1'
+                        url='videos/evosta.mp4'
                         width='100%'
                         height='100%'
                         controls={true}
