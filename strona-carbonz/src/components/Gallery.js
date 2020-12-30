@@ -15,7 +15,7 @@ const Gallery = () => {
                     <h5>Gruntowe pompy ciepła</h5>
                 </NavLink>
                 <NavLink to='rekuperacja'>
-                    <img src={require('../assets/pomp4-kopia.jpg')} alt="rekuperacja"/>
+                    <img src={require('../assets/rekupefront.jpg')} alt="rekuperacja" className="ciep-pomp"/>
                     <h5>Rekuperacja</h5>
                 </NavLink>
                 <NavLink to='ogrzewaniepodlogowe'>

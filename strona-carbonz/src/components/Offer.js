@@ -52,6 +52,7 @@ const Offer = () => {
                         <ReactPlayer
                         className='react-player'
                         url='videos/evosta.mp4'
+                        light='videos/thumb.jpg'
                         width='100%'
                         height='100%'
                         controls={true}
